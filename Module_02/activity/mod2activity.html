@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mod2activity</title>
+    <link rel="stylesheet" href="mod2activity.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h2>Mod2activity</h2>
+<p>Create a basic template that uses the following:
+<br>
+A 3-column grid.
+<br>
+The first column displays text that contains one h1 header and formatted text.
+<br>
+The second column contains a form with at least 2 button styles.
+<br>
+The third column contains a responsive image of your choice that resizes as the browser window size changes.</p>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>The first column displays text that contains one h1 header and formatted text.</p>
+    <p>Ra<sub>s</sub>mu<sup>ss</sup>en<b> College</b></p>
+  </div>
+
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>The second column contains a form with at least 2 button styles.</p>
+    <form>
+      First name:<br>
+      <input type="text" name="firstname">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname">
+    </form>
+    <button class="button button2">Button CSS style</button>
+    <a href="http://www.rasmussen.edu" class="button">Rasmussen Link Button</a>
+  </div>
+
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>The third column contains a responsive image of your choice that resizes as the browser window size changes.</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/FBMVEX///8ASBLwsxBRf1X636oARg4ASBH7uRAAPRIARRIAPxJUglhAdUVQflQAQRIAQxL1thBLe08AQwgAQQBFeEr74rEANQAAPQAAQwAtYDQAOQCFoofa4ttHeUwAMwDwtBA2aD3z9vOnjRHWphDs8OwyZjpwlHOWr5i0xbXH1MgSUB6ahxG+zb/T3dTk6uRDdEpji2bBmhFDXRIhUhLxuS3QoxCmu6hXZhH42JT30IAdVibgrBDzwlGFfBH53KDyvDv1ymxpj2xMcFFycRGDmoaQgRFeaBF2dBGUppYzVBJmhGv0xl+ykxAnaC6Qq5I+XBI6ZEBFbkxef2N3kHuuTyovAAAPz0lEQVR4nO2daVsaSReGsZtuZGlZZRNEolEwYJw4IYnGScxoQpwsRv//f3mru6vXOrXQVdB4vTzfZq5EuVOnzlanikxmo4022mijjTbaaKP/ew2HZ9PxZDaf394+3T8+fsF6fLx/up3PZ6PJuHc0TPtDJtFRbzK7vf/SMevN/Wa322q16vV6OyL0P1qtbrfZ3O+2Lx8eb+ej6dlzYD0az24fO+1uE1HV2zXD3OLLNIxau96y/87ln6f5ZF1Bzybz+05rvysMBrLapPvdy/v5pJc2UEjD6ezpoWuz1RKSxWW0EWez8zSbpr+cvdlTp9VEbGrQwjJr9VazizBTW83heP6nvhy4kGzM+pf5yhdzOLntIMfQNpZK5wkZbbP7MB+vitKm2+8q23OCMmvI2T7Mp0vH683/dLtLNkw6pW2xj6OjpdENJ/ft/VY76efLK6FEFrvfWcpS9uYPzW5dYt/l36lBRKqhpbwfqdyVw/HT1n5LcuOV3xYUAdoy6t3mn9mZGrzJ3mVTZvFcla+vVBIimchej6VX8mx2U2pUDxQEhcKVti3/U6IyTatRuhnJrOTRz76l68WX8oT5r7lBWQFUVKau61b/p8Q6DkvoRyghLLyt5C4UMEVlWPbnK0kQHqkizL/JaTl1ztSTUXUIJQKkMsLCXxWt8k05YU0VYUeWMP89p2mVFztKsELChBKuRhVh4UcFESoNiI7Wh9BEgNpgsCwrTZ9w55VNqOV+q0bEhBIlsiLCvDawCSvXqiPiuhCWv+U0h/Av1RsRE0pUGmdKCFHC5kr5RlwTQpSwYcLcV8WItddrQbj9toIJKz8Um6lL2EiZ0E7YPFUUx3xMOE6X0In2npn+q9ZM14PwIgBEaY3aGtFYB0Ic7b1F/K50EY0Dh3CSKmF+MAgRKs6+5Ql70oTl65wW1kBpH3kdCLevIoBa5ZXKRXQJ+6MUCYNo7yOq3Ih4DdMktGv7GOELhVE/fcL8RXwJkTu9ULeKbrRI00qjoQIvosIKA+/DWXqEZW1AEKLERlmZmDph/l/SSFHA0FQBpk9YeEsaqWOnqnK31AkBP+Pa6bWioJg2YfkOXEJ7FRX1pFzCamqEhUMKoKZdqTkRxoQnaRHSjNRexEMlIcM4KKZJWL6mGakyb5MyIZmxRbzNDwWIaRMOgHCvFhET/kqH0DlvYiK+kEZMmfAby0jVrGK6hDsveITyiOkSUlK2KKKkR015Da+4gHZ7cUcm9GPCvXQI80xP6iMe5iUQ0yU0+UbqIF6ZyRHlCWX6pRcg4d9/E4ja98QVsTLCJNMmUIsG6dMH8v8N3iRFxJl3OoSUNfy4C1nq14T1ojLCRJN78D78vAstYu7fZKWGKkI9EWEZ9KXvs7vETtTsqj9RYJQnPJIgBOvfSjabBRYRId4lQUyXcOcHYKYfd7PZ3U8gYpI83O0IKyB8nchKoS7NB7SG2fcQYaIkNd01zP8GwsWuTbj7EXRCCRDTJYQq4M8OYfYfcBFRHr6oR5UnHMoQkhuxknW1+5mGuOAqKiN8neiOTHjMJLKESJSsfFFDdWcxZKqnYUOCMJj2whp4fFko7CdBVEZYTUboTex5+rAbIEJh30FcKGjIE2ZcQivhTa5oEfx3AEiLGDbi9QLuxp3ckyLsy6xhbBH/CQFSwr6D+FW80sCEEv3STNWSIYzsxM/hJWQsolYRnypSQGg5hFbic3x/FKPyKQrIWERNWyVh0SHUt5LO+fiTl4NsXDR3usj0m3tnRub8MHPu/IhiYkK/8f2eINyld6pyd2IVsWnqqgjNxLNaeBrjwy5JSElsHESxE1RzqyhNeIPXMLnKtrP5TAJSs1PHTsXuKpqmSygxT5M5drZy8TT5vF3+Xc6pCkmxfI2gnZ46hDIzUR7hpcT45faPuBv1COm+Bq2iyFU+81KecA8TSsxM7nwF+dhmKjY5ZWBCienLzK9q8pawq/KbCmykjOTUsVOBuO+tocQUdOakmrxh6gL+HoCe1CH8j3XQL3BzwejIE876coT57w4ExUxZG1FkJxovHUKZGyWYMGGRb7f23StdFF/D2oha5Y6bgXuEMs+7jKRK4PyF93HBgJjNMo+nrri5m9vEkLp/mJnIECJAH4HM2niuRiCxcQtgqXvAmbFEkZ83A0Ag886yY7499M4zU49Q5l2FaSlxkZ/PX4WNEAoZlMapR8i9N+wWT3KE7iGwridIvcuH0Y8PbEU2oTbgZW41t7ZrSAB6LeEEqTc5igEUUGxCXtDHpYVVlSHEDdPFU29gqI3cijxC3oVMN/G2dBlC3GxbOG3bfkEeWpBRke1puI8w4KTNOpcidFtRixIWrsFD/P/ivRpmtODe/cZJW/VYihA3ahZLasrgjL5GJqhMQG5Wg1MamWOLjFcgLhby87+p2yvqbegdRbE1dFMaqYawVyAuGPLp814Rb8Pq1IgQ4oAv1abxyie9uADhNmM2OOJtOI6Ge2sYB3ypEt8vLoqnwoCFO+bkbDjwswG13BsOYVGXLvH91Fu8U0OeGsb0XtRItQo7CJtuOJQrD/3EVDxclLlDl4KxQhtwHgfDXRq54smfGRIOFwX+ZLCXgzMrfI3fjMLBQi7x9tM20XABDmDE5UZFnp/hhkPsSuUSb6S+G/J1sTXcPhSYKh2IBEON+zYYriysoiShe3Ih6Ezj59oUOZNRnF3IfUQDVxaySZsf8sVczQ50ZxTQe3bD2wXkbEOcd8umNEHIF3E1gkvoHOlz/0zum1DeLZvS+N02IVcTHy+h68N/3D/CiYaBo5EL+H5AFHE19jGTmCrMS1/4j3C6NDhnk+uW2sJ9DJEyvwDNW8La5v5R7lM2OKOR6yU6qmJnyu/sl0UBc+/KjNuXjga8t0C9bSjXpXGEwwV/I5JvYFBkPxzBW2/uCyG4OJTtYdjC4YK/EQWucrkf/sr+8JxF5PkZfxtKVvi2Rn28EXnHpAWRfEbzJoLYi8h/qcfbhtLBInCm3Ii4IwaIL+OzM9gKh8/fhnKHh648Z8rtZPCcB/7s3pQs6/Yef1DBi4aytZMj3RKKF9zS15X/smCekQBd8c5kvKRUhSsNXA0nXojF+0rQmaBf3+O/PugbqSWbd9vCrRqemQoRhl/EoPoagbv6vpFKTe158vM2tpmKWGnks9Pi54A/m+gbqXxWamvoEzLNlHs7nXhndwc2U4FXsX0jVZCz2fKyGs6cKT9pi312+NGF3Cv+mIlvpEocjV8i8nqK8afZCMWf+QK9qciL0V4fUUlGYwsf5vNyU/AqV1jEE7QmZNdcPrSEB/42lOt3e/I3IvssGH4VKmR+xAtYZMU8EBnyNg0PUEm8t3XsbUR25pZnriEw20yuOqqruIB+oxRtQ0sNYBAR2dPCnOdayNUhXrDJfRMZK615/+CqtmHQ+OYEDGbMhybx4n8hdycyGhyEChVpN1bR/1djzp0wHoaCB/Gi971zr4Rm9I2q/2EkG/oh+fGCs4h0XwM/CFkOX1EUvPIUWkLpZnCgnm+m7LsX9CIY9pE7hwsD4jsWjqRG2GPS/R9bPGDERGpuSukNhmpEQRMNL6GilM1VYKbs/JtWL1ByzSBciAIGOTeKFTfqAEPelJPYUIo+yqyo37wSBQylM8oSGqzzwPqZ2SkcMWhHgR6h8HsDxmkAqNCT2ho1gp9ssb5mtPAKQKS9O4sJxW9V1oLdoi7cY4UImc4m9EUBgWhvCLqE4oBBvqZLTygQCvka3mQGsRWp074OoTigGbZRBc3uqMK+hm2n+AZC2EhpgzG2L13g4m/YRhX7GVvH4UVk+tMy0YChVUT2d5UtAHgQXsK+8m8lnYYXkX3ovRMt3ull+86VcJgI5mdc9VU02WK6scKIzL5bdPKLcQix0AsD4d+vOFS4iiyiXmV+peV2OGZQZ33zbxZ4qNXvPrm/XnY+AVR4J3K2YmQMmupo8t/EvzAwsgmXs4TRCsOuo0QR6V98KD4fH064l7QLbe1VI4jsqBggDoQ56IARL4NCxZK+3vkosoiiiAPuzRCuzFM9Cih/LErRST+KyD5vw4gDTfbdZzPqRuVH2Rjqx34Veye5iAP+NTsOoBHZHcjNKGtAkRpH7VSvsk++naAhu4Zm7XV0EypszwA6jv1zssOis4qy+zAOuKRI4WnYiNopCot8RJlnZokVXELKHdUkZqcCiDJfBEwCVlV2Z0DtVRdE/Evmi4AJQKUNNopi/pSXv21tH/JvZVNErqBeUnGszdE0ZqcIkVUQI71ISkgC9hU3Z2DNGnHEKjMu5i8SPqthEIDLjPVhxUOGHfoVfMF8TOZWNQ6o7ESUK92K/2r9VDWisUX+klVsQldnJfK3y7xhAwGekr+isaSaCVI8e7M342XSV90g1S4JC11ythbXCEDsqEOsdQBA1Q1Sjk7iDtXphav5/kaz9pIEtKylpqOA9gBEXmAUFBklEODK3Gig4z6JWFUQNQyTjBIIUPZaRRLdEGFRj0UNQ8hsjXrkv06Bn6r8GEZQ5wBi2N/U/nS63TqT0mi3mu3H0L8K5ESXW9UzVYQQA39Te8gcTW4fms0WhGnW6q39+uN8mpl0g/93sFaAmSGI+Nrw1qTpfrLp7Omh29xvdlue7P9qPTyN3M3lR1IT8jGrTGUARMhQdcvbjO0voT/aG09Gs7mt2WgyPgt8/7jpb0FrvVbQEYjobUZzX6RcvW+ztqCVMiDyqGTQCA7CW3P+Dxg23T0Kb0ErJS8a1jEZ+u3N6ERG45T/92ctx0K3wC1oNdKIg3EB2Y392Rz/0eSbmGPRtUuylECqVlefyUA6IdNw3dmM5lb9nveXe007SACZtg1YXHUuStMMRkRhw2zxPuNta8uAg4TeWGm5xNYEKIkRIgobXV7/FvHBQUIvraTrJKpeA9xHxU7rC/svTvcpFqqXlnaElkxHUHpjWyonJD61YAu10kxkYA1vQJda5CwFVCohVfvrECXi+gX6G/b9OaK97Kp/vi5ONKoR6G+Yh2EnoG2vl48Ja9oAPjDzNAzovKItuOTzMxkdnZNZKqsJ2AOMtNpIPxNlaY/8zAwzBYy0cbOeWzAQuRkZ9zyLhJGWVtjXTqppP37WTzXTs/iCr2EUhERERuoE0yy2a/vF9Sgl+DqJWir1AtZN1EhLSxk4XI7GpbCl0kYlhxEjfSYW6unoPHx9gXIfeRK25sazsVBPv0KWSmnJh8Y6rOdkoZ5Clkp5YiWouKrq7kquUoGlwnewgoRm/aM8Tb5PBdMaL1ZY61brLiIvFQeNEF8R7+vrWAoKa+h2U6F44X71oLW+lZKoZralQpM+TvH7TF1MVL1iH5y3s7dh6fi5upioUGgE6ovj6lqXuotp3GiQG7HfOH9uWQxDwxtiI/Z+PoNKcBHN4htust69io022mijjTbaaKONVqv/AXL+6f3rDUjXAAAAAElFTkSuQmCC" alt="Rasmussen Logo">
+  </div>
+</div>
+
+</body>
+</html>
