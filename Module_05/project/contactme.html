@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>mod5contactme</title>
+
+  <link href="mod5proj.css" rel="stylesheet">
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="jumbotron.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="BFlogo.jpg" alt="BFlogo" width="170">
+    </div> 
+    <div class="banner">
+      <h1>BANNER</h1>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="mod5proj.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"disabled>About Us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contactme.html">Contact Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#"disabled>Photography</a>
+            <a class="dropdown-item" href="#"disabled>Programming</a>
+            <a class="dropdown-item" href="#"disabled>Web Design</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+      	<h5 class="card-title">Submit a Comment</h5><span class="label label-primary">Form</span>
+		 <form>
+		      <label for="validation01">First name</label>
+		      <input type="text" class="form-control" id="validation01" placeholder="First name" value="First Name" required>
+		      <label for="validation02">Last name</label>
+		      <input type="text" class="form-control" id="validation02" placeholder="Last name" value="Last Name" required>
+		      <label for="validation03">City</label>
+		      <input type="text" class="form-control" id="validation03" placeholder="City" required>
+		      <div class="invalid-feedback">This field is required.</div>
+		      <label for="validation04">State</label>
+		      <input type="text" class="form-control" id="validation04" placeholder="State" required>
+		      <div class="invalid-feedback">This field is required.</div>
+		      <label for="validation05">Zip</label>
+		      <input type="text" class="form-control" id="validation05" placeholder="Zip" required>
+		      <div class="invalid-feedback">This field is required.</div>
+		      <div class="form-group">
+		      <label for="comment">Comment:</label>
+		      <textarea class="form-control" rows="5" id="comment"></textarea>
+		      </div>
+			  <button class="btn btn-primary" type="submit">Submit form</button>
+		 </form>
+
+
+        <div class="card-body">
+             <div class="dropdown">
+			    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Site Pages</button>
+			    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			      <li role="presentation"><a role="menuitem" tabindex="-1" href="mod5proj.html">Home</a></li>
+			      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+			      <li role="presentation"><a role="menuitem" tabindex="-1" href="contactme.html">Contact Me</a></li>
+			      <li role="presentation" class="divider"></li>
+			      <li role="presentation"><a role="menuitem" tabindex="-1" href="http://sotd.us/brandonfabian/w06/kimbo.html">Kimbo Img</a></li>
+			    </ul>
+		    </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <img class="card-img-top" src="kimbostick.jpg" alt="Kimbo Eating Stick">
+        <div class="card-body">
+          <h5 class="card-title">Kimbo Buddies</h5><span class="label label-warning">Old Post</span>
+		  <form>
+		    <div class="radio">
+		      <label><input type="radio" name="optradio" checked>Like</label>
+		    </div>
+		    <div class="radio">
+		      <label><input type="radio" name="optradio">Funny</label>
+		    </div>
+		    <div class="radio disabled">
+		      <label><input type="radio" name="optradio" disabled>Dislike</label>
+		    </div>
+		  </form>
+		  <a class="btn btn-primary" href="http://sotd.us/brandonfabian/w06/kimbo.html" role="button">Comment <span class="badge badge-light"> 28</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <img class="card-img-top" src="kimbostick.jpg" alt="Kimbo Eating Stick">
+        <div class="card-body">
+          <h5 class="card-title">Kimbo Buddies</h5><span class="label label-primary">New Post</span>
+           <form>
+		    <div class="checkbox">
+		      <label><input type="checkbox" value="">Like</label>
+		    </div>
+		    <div class="checkbox">
+		      <label><input type="checkbox" value="">Funny</label>
+		    </div>
+		    <div class="checkbox disabled">
+		      <label><input type="checkbox" value="" disabled>Dislike</label>
+		    </div>
+		  </form>  	
+		  <a class="btn btn-primary" href="http://sotd.us/brandonfabian/w06/kimbo.html" role="button">Comments <span class="badge badge-light"> 7</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+      	          <h5 class="card-title">Subscribe/Sign in</h5><span class="label label-warning">Sign In</span>
+
+		  <form action="/action_page.php">
+		    <div class="form-group">
+		      <label for="email">Email:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+		    </div>
+		    <div class="form-group">
+		      <label for="pwd">Password:</label>
+		      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+		    </div>
+		    <div class="checkbox">
+		      <label><input type="checkbox" name="remember"> Remember me</label>
+		    </div>
+		    <button type="submit" class="btn btn-default">Submit</button>
+		  </form>
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">More Kimbo!</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <a href="http://sotd.us/brandonfabian/w06/kimbo.html"><button type="button" class="btn btn-primary btn-lg"> Kimbo Button <span class="badge badge-light"> &raquo</span></button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
